@@ -1,0 +1,15 @@
+Test 1:
+  - Descriere: Verificare conectivitate la rețea funcțională
+  - Rezultat: Conectivitatea la rețea este disponibilă. Testul a trecut cu succes.
+
+Test 2:
+  - Descriere: Actualizare mirror-uri cu conectivitate la rețea
+  - Rezultat: Mirror-urile au fost actualizate cu succes. Testul a trecut cu succes.
+
+Test 3:
+  - Descriere: Încercare de actualizare a mirror-urilor fără conectivitate la rețea
+  - Rezultat: Nu există conectivitate la rețea. Scriptul a înregistrat corect evenimentul în jurnalul de sistem. Testul a trecut cu succes.
+
+Test 4:
+  - Descriere: Verificare încheiere corectă a scriptului
+  - Rezultat: Scriptul s-a încheiat corect și a înregistrat toate acțiunile în jurnalul de sistem. Testul a trecut cu succes.

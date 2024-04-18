@@ -1,0 +1,14 @@
+Instrucțiuni pentru programarea rulării scriptului up.sh în fiecare noapte la ora 1AM:
+
+1. Deschideți PowerShell sau un terminal similar.
+
+2. Navigați la directorul în care este salvat scriptul up.sh. De exemplu:
+cd C:\Users\Teodora\Desktop
+
+3. Utilizați programul Task Scheduler pentru a programa rularea scriptului la ora 1AM în fiecare noapte. Puteți face acest lucru folosind următoarele comenzi:
+
+schtasks /create /tn "Up Script" /tr "C:\Users\Teodora\Desktop\up.sh" /sc daily /st 01:00:00
+
+4. Scriptul va fi acum programat să se execute automat în fiecare noapte la ora 1AM.
+
+
